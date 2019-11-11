@@ -14,7 +14,7 @@ public class SecKill_redis {
 
 	public static void main(String[] args) {
 		Jedis jedis =new Jedis("192.168.192.10",6379);
-		System.out.println(jedis.ping());
+
 		System.out.println(jedis.ping());
 	 
 		jedis.close();
